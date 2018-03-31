@@ -11,7 +11,7 @@ class BlockchainInfoBlockReader
 	
 	public $json; #init'd in constructor
 	
-	const BLOCKCHAIN_INFO_BLOCK_URL_PREFIX = 'https://blockchain.info/block-index/';
+	const BLOCKCHAIN_INFO_BLOCK_URL_PREFIX = 'https://blockchainbdgpzk.onion/block-index/';
 	const BLOCKCHAIN_INFO_BLOCK_URL_SUFFIX = '?format=json';
 	const BLOCKCHAIN_INFO_BLOCK_URL_API_KEY = ''; # leave me blank or set me
 	

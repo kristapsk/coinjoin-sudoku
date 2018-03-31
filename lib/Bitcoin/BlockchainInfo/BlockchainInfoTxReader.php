@@ -17,10 +17,10 @@ class BlockchainInfoTxReader
 	protected $debugLog; //init'd in constructor
 	const DEBUG_ON = TRUE;
 	
-	const BLOCKCHAIN_INFO_TX_URL_PREFIX = 'https://blockchain.info/tx/';
+	const BLOCKCHAIN_INFO_TX_URL_PREFIX = 'https://blockchainbdgpzk.onion/tx/';
 	const BLOCKCHAIN_INFO_TX_URL_SUFFIX = '?show_adv=true';
 	
-	const BLOCKCHAIN_INFO_TX_JSON_URL_PREFIX = 'https://blockchain.info/tx-index/';
+	const BLOCKCHAIN_INFO_TX_JSON_URL_PREFIX = 'https://blockchainbdgpzk.onion/tx-index/';
 	const BLOCKCHAIN_INFO_TX_JSON_URL_SUFFIX = '?format=json';
 	
 	const BLOCKCHAIN_INFO_TX_JSON_API_KEY = ''; # leave me blank or set me
